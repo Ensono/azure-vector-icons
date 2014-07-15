@@ -1,1 +1,15 @@
+# Project Todo Folder
 /todo
+
+# OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+# Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+# vim Temp Files
+*~
