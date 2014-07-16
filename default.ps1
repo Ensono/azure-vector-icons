@@ -1,6 +1,14 @@
-Task default -Depends ConvertToPng
+Task default -Depends Render
 
-Task ConvertToPng {
+Task CreateRendersFolder -PreCondition { -Not (Test-Path "$PSScriptRoot\renders") } {
+  New-Item -ItemType Container "$PSScriptRoot\renders";
+}
+
+Task DeleteRenders -Depends CreateRendersFolder { 
+  Get-ChildItem -Path "$PSScriptRoot\renders" -Filter "*.png" | Remove-Item;
+}
+
+Task Render -Depends DeleteRenders {
   if (Test-Path $env:ProgramFiles\Inkscape) {
     $inkscape = Join-Path $env:ProgramFiles "Inkscape\inkscape.com";
   }
@@ -17,11 +25,13 @@ Task ConvertToPng {
 
   foreach ($svgDocument in $allSvgDocuments) {
     $inputDocument = $svgDocument.FullName;
-    $outputDocument = "$PSScriptRoot\renders\$($svgDocument.BaseName).png";
+    $outputName = $svgDocument.BaseName.ToLower().Replace(" ", "-");
+    $outputDocument = "$PSScriptRoot\renders\$outputName.png";
     $inputParameter = "--file=$inputDocument";
     $outputParameter = "--export-png=$outputDocument";
     $additionalParameters = @("--export-area-page", "--export-background-opacity=0.0");
-
+  
+    Write-Host -ForegroundColor Magenta "Rendering $($svgDocument.BaseName)";
     & $inkscape $inputParameter $outputParameter $additionalParameters; 
   }
 }
