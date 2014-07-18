@@ -48,6 +48,8 @@ Network Services
 Misc
 ----
 
+| Icon | Title |
+|:---- |:----- |
 | ![active-directory](renders/active-directory.png) | active-directory |
 | ![add-ons](renders/add-ons.png) | add-ons |
 | ![management-service](renders/management-service.png) | management-service |
