@@ -11,7 +11,7 @@ Compute
 
 | Icon | Title |
 |:---- |:----- |
-| ![Cloud Services](renders/cloud-servics.png) | Cloud Services |
+| ![Cloud Services](renders/cloud-services.png) | Cloud Services |
 | ![Virtual Machines](renders/virtual-machines.png) | Virtual Machines |
 | ![ElasticSearch on VM](renders/virtual-machine---elasticsearch.png) | ElasticSearch on VM |
 | ![Automation](renders/automation.png) | Automation |
