@@ -25,7 +25,7 @@ Task Render -Depends DeleteRenders {
 
   foreach ($svgDocument in $allSvgDocuments) {
     $inputDocument = $svgDocument.FullName;
-    $outputName = $svgDocument.BaseName.ToLower().Replace(" ", "-");
+    $outputName = $svgDocument.BaseName.ToLower().Replace(" ", "-").Replace("(", [String]::Empty).Replace(")", [String]::Empty);
     $outputDocument = "$PSScriptRoot\renders\$outputName.png";
     $inputParameter = "--file=$inputDocument";
     $outputParameter = "--export-png=$outputDocument";

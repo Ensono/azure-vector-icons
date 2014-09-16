@@ -50,7 +50,8 @@ Misc
 
 | Icon | Title |
 |:---- |:----- |
-| ![active-directory](renders/active-directory.png) | active-directory |
+| ![active-directory](renders/azure-active-directory-aad.png) | active-directory |
+| ![access-control](renders/azure-active-directory-access-control-services-acs.png) | Azure AD Access Control Services (ACS) |
 | ![add-ons](renders/add-ons.png) | add-ons |
 | ![management-service](renders/management-service.png) | management-service |
 | ![visual-studio](renders/visual-studio.png) | visual-studio |
