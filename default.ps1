@@ -36,7 +36,7 @@ Task DeleteRenders -Depends CreateRendersFolder {
   Get-ChildItem -Path "$PSScriptRoot\renders" -Filter "*.png" | Remove-Item;
 }
 
-Task Render -Depends "Inspect Metadata", DeleteRenders {
+Task Render -Depends "Inspect Metadata" {
   if (Test-Path $env:ProgramFiles\Inkscape) {
     $inkscape = Join-Path $env:ProgramFiles "Inkscape\inkscape.com";
   }
@@ -55,6 +55,12 @@ Task Render -Depends "Inspect Metadata", DeleteRenders {
     $inputDocument = $svgDocument.FullName;
     $outputName = $svgDocument.BaseName.ToLower().Replace(" ", "-").Replace("(", [String]::Empty).Replace(")", [String]::Empty);
     $outputDocument = "$PSScriptRoot\renders\$outputName.png";
+
+    if (Test-Path $outputDocument) {
+      Write-Host -ForegroundColor Yellow "  Not Re-rendering $($svgDocument.BaseName), it already exists.";
+      continue;
+    }
+
     $inputParameter = "--file=$inputDocument";
     $outputParameter = "--export-png=$outputDocument";
     $additionalParameters = @("--export-area-page", "--export-background-opacity=0.0");
