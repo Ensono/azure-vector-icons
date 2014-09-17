@@ -15,8 +15,8 @@ Task "Inspect Metadata" {
       $icon.SVGDocument.SelectNodes('//namespace::*[not(. = ../../namespace::*)]') `
         | Where-Object { $_.LocalName -ne 'xmlns' } `
         | ForEach-Object { $namespaceManager.AddNamespace($_.LocalName, $_.Value) }
-      $metadata = $icon.SVGDocument.SelectSingleNode('//svg:svg/svg:metadata/rdf:RDF/cc:work', $namespaceManager);
-      $metadata;
+      $metadata = $icon.SVGDocument.SelectSingleNode('//svg:svg/svg:metadata/rdf:RDF/cc:work', $namespaceManager).RDF.cc;
+
       Write-Host -NoNewLine -ForegroundColor Green "  [SUCCESS] "
       Write-Host -ForegroundColor Yellow "$($icon.BaseName)";
   } catch {
