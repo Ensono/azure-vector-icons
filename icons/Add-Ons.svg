@@ -39,15 +39,14 @@
      inkscape:window-x="2154"
      inkscape:window-y="234"
      inkscape:window-maximized="0" />
-  <metadata
-     id="metadata3088">
+  <metadata id="metadata">
     <rdf:RDF>
-      <cc:Work
-         rdf:about="">
+      <cc:Work rdf:about="">
         <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Add-Ons</dc:title>
+        <dc:creator>Richard Slater</dc:creator>
+        <dc:identifier>add-ons</dc:identifier>
       </cc:Work>
     </rdf:RDF>
   </metadata>
