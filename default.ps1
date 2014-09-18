@@ -127,8 +127,24 @@ Task InstallSVGO -PreCondition { (Get-Command npm -ErrorAction Ignore) -And -Not
 
 Task OptimizeVectors -Depends InstallSVGO -PreCondition { (Get-Command npm -ErrorAction Ignore) -And (Test-Path .\tools\node_modules\svgo) } {
   $allSvgDocuments = Get-ChildItem -Path "$PSScriptRoot\icons" -Filter "*.svg";
+  $svgoParams = @("$PSScriptRoot\tools\node_modules\svgo\bin\svgo", "--disable=removeMetadata", "--disable=convertPathData", "--pretty");
 
   foreach ($svgDocument in $allSvgDocuments) {
-    & node "$PSScriptRoot\tools\node_modules\svgo\bin\svgo" --disable=Metadata -i $svgDocument.FullName;
+    $outputName = "$PSScriptRoot\icons\$($scgDocument.BaseName)-opt.svg";
+    & node $svgoParams --input $($svgDocument.FullName) --output $outputName | Out-Null;
+
+    if (Test-Path $outputName) {
+      $optimizedSvg = Get-ChildItem $outputName;
+      $saving = 100 - ([Math]::Round(($optimizedSvg.Length / $svgDocument.Length) * 100, 2) );
+      Write-Host -ForegroundColor Yellow "    SVG Optimization Saved $($saving)%";
+
+      if ($saving -gt 0) {
+        Remove-Item $svgDocument.FullName;
+
+        Move-Item $outputName $svgDocument.FullName;
+      } else {
+        Remove-Item $outputName;
+      }
+    }
   }
 }
