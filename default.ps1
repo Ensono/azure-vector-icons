@@ -130,6 +130,7 @@ Task OptimizeVectors -Depends InstallSVGO -PreCondition { (Get-Command npm -Erro
   $svgoParams = @("$PSScriptRoot\tools\node_modules\svgo\bin\svgo", "--disable=removeMetadata", "--disable=convertPathData", "--pretty");
 
   foreach ($svgDocument in $allSvgDocuments) {
+    Write-Host -ForegroundColor Magenta "  Optimizing $($svgDocument.BaseName)";
     $outputName = "$PSScriptRoot\icons\$($scgDocument.BaseName)-opt.svg";
     & node $svgoParams --input $($svgDocument.FullName) --output $outputName | Out-Null;
 
