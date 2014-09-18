@@ -10,11 +10,13 @@ Add Metadata:
   <metadata id="metadata">
     <rdf:RDF>
       <cc:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Add-Ons</dc:title>
-        <dc:creator>Richard Slater</dc:creator>
+        <dc:subject>Miscellaneous</dc:subject>
         <dc:identifier>add-ons</dc:identifier>
+        <dc:title>Add-Ons</dc:title>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:publisher>Amido Limited</dc:publisher>
+        <dc:creator>Richard Slater</dc:creator>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
       </cc:Work>
     </rdf:RDF>
   </metadata>
