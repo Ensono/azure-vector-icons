@@ -1,5 +1,5 @@
 Task default -Depends "Inspect Metadata", Render
-Task full -Depends "Inspect Metadata", OptimizeVectors, DeleteRenders, Render, OptimizeRenders
+Task full -Depends "Inspect Metadata", OptimizeVectors, DeleteRenders, Render, OptimizeRenders, UpdateReadme
 
 Task CreateRendersFolder -PreCondition { -Not (Test-Path "$PSScriptRoot\renders") } {
   New-Item -ItemType Container "$PSScriptRoot\renders";
@@ -50,15 +50,13 @@ Task Render -Depends "Inspect Metadata" {
     throw "Inkscape could not be found in 'Program Files', aborting.";
   }
 
-  $allSvgDocuments = Get-ChildItem -Path "$PSScriptRoot\icons" -Filter "*.svg";
-
-  foreach ($svgDocument in $allSvgDocuments) {
-    $inputDocument = $svgDocument.FullName;
-    $outputName = $svgDocument.BaseName.ToLower().Replace(" ", "-").Replace("(", [String]::Empty).Replace(")", [String]::Empty);
+  foreach ($icon in Get-Icons) {
+    $inputDocument = $icon.FullName;
+    $outputName = $icon.Identifier;
     $outputDocument = "$PSScriptRoot\renders\$outputName.png";
 
     if (Test-Path $outputDocument) {
-      Write-Host -ForegroundColor Yellow "  Not Re-rendering $($svgDocument.BaseName), it already exists.";
+      Write-Host -ForegroundColor Yellow "  Not Re-rendering $($icon.Title), it already exists.";
       continue;
     }
 
@@ -66,7 +64,7 @@ Task Render -Depends "Inspect Metadata" {
     $outputParameter = "--export-png=$outputDocument";
     $additionalParameters = @("--export-area-page", "--export-background-opacity=0.0");
   
-    Write-Host -ForegroundColor Magenta "  Rendering $($svgDocument.BaseName)";
+    Write-Host -ForegroundColor Magenta "  Rendering $($icon.Title)";
     & $inkscape $inputParameter $outputParameter $additionalParameters; 
   }
 }
@@ -127,23 +125,22 @@ Task InstallSVGO -PreCondition { (Get-Command npm -ErrorAction Ignore) -And -Not
 }
 
 Task OptimizeVectors -Depends InstallSVGO -PreCondition { (Get-Command npm -ErrorAction Ignore) -And (Test-Path .\tools\node_modules\svgo) } {
-  $allSvgDocuments = Get-ChildItem -Path "$PSScriptRoot\icons" -Filter "*.svg";
   $svgoParams = @("$PSScriptRoot\tools\node_modules\svgo\bin\svgo", "--disable=removeMetadata", "--disable=convertPathData", "--pretty");
 
-  foreach ($svgDocument in $allSvgDocuments) {
-    Write-Host -ForegroundColor Magenta "  Optimizing $($svgDocument.BaseName)";
-    $outputName = "$PSScriptRoot\icons\$($scgDocument.BaseName)-opt.svg";
-    & node $svgoParams --input $($svgDocument.FullName) --output $outputName | Out-Null;
+  foreach ($icon in Get-Icons) {
+    Write-Host -ForegroundColor Magenta "  Optimizing $($icon.Title)";
+    $outputName = "$PSScriptRoot\icons\$($icon.Title)-opt.svg";
+    & node $svgoParams --input $($icon.FullName) --output $outputName | Out-Null;
 
     if (Test-Path $outputName) {
       $optimizedSvg = Get-ChildItem $outputName;
-      $saving = 100 - ([Math]::Round(($optimizedSvg.Length / $svgDocument.Length) * 100, 2) );
+      $saving = 100 - ([Math]::Round(($optimizedSvg.Length / $icon.Length) * 100, 2) );
       Write-Host -ForegroundColor Yellow "    SVG Optimization Saved $($saving)%";
 
       if ($saving -gt 0) {
-        Remove-Item $svgDocument.FullName;
+        Remove-Item $icon.FullName;
 
-        Move-Item $outputName $svgDocument.FullName;
+        Move-Item $outputName $icon.FullName;
       } else {
         Remove-Item $outputName;
       }
@@ -152,15 +149,7 @@ Task OptimizeVectors -Depends InstallSVGO -PreCondition { (Get-Command npm -Erro
 }
 
 Task UpdateReadme -Depends "Inspect Metadata" {
-  $icons = Get-ChildItem "$PSScriptRoot\icons" `
-    | Select-Object BaseName, Name, @{ Name="Content"; Expression={[xml](Get-Content $_.FullName);} } `
-    | Select-Object BaseName, Name, Content, @{ Name="Metadata"; Expression={ $_.Content.svg.metadata.rdf.Work } } `
-    | Select-Object BaseName, Name, `
-        @{ Name="Category"; Expression={ $_.Metadata.subject } }, `
-        @{ Name="Title"; Expression={ $_.Metadata.title } }, `
-        @{ Name="Identifier"; Expression={ $_.Metadata.identifier } };
-
-  $categories = $icons | Group-Object -Property "Category" | Sort-Object -Property Name;
+  $categories = Get-Icons | Group-Object -Property "Category" | Sort-Object -Property Name;
 
   $readmeFile = "$PSScriptRoot\README.md";
   Copy-Item "$PSScriptRoot\README.template.md" $readmeFile;
@@ -172,8 +161,18 @@ Task UpdateReadme -Depends "Inspect Metadata" {
     Add-Content $readmeFile "| Icon | Title |";
     Add-Content $readmeFile "|:---- |:----- |";
     foreach ($icon in $category.Group) {
-      Add-Content $readmeFile "| ![$($icon.Title.Trim())](renders/$($icon.Identifier.Trim()).png) | $($icon.Title.Trim()) |";
+      Add-Content $readmeFile "| ![$($icon.Title)](renders/$($icon.Identifier).png) | $($icon.Title) |";
     }
     Add-Content $readmeFile "";
   }
+}
+
+function Get-Icons {
+  Get-ChildItem "$PSScriptRoot\icons" `
+    | Select-Object FullName, BaseName, Name, Length, @{ Name="Content"; Expression={[xml](Get-Content $_.FullName);} } `
+    | Select-Object FullName, BaseName, Name, Length, Content, @{ Name="Metadata"; Expression={ $_.Content.svg.metadata.rdf.Work } } `
+    | Select-Object FullName, BaseName, Name, Length, `
+        @{ Name="Category"; Expression={ $_.Metadata.subject.Trim() } }, `
+        @{ Name="Title"; Expression={ $_.Metadata.title.Trim() } }, `
+        @{ Name="Identifier"; Expression={ $_.Metadata.identifier.Trim() } };
 }

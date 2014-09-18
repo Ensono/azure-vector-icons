@@ -11,7 +11,7 @@ Big Data
 
 | Icon | Title |
 |:---- |:----- |
-| ![HDInsight (Old)](renders/hdinsight.png) | HDInsight (Old) |
+| ![HDInsight (Old)](renders/hdinsight-old.png) | HDInsight (Old) |
 | ![HDInsight](renders/hdinsight.png) | HDInsight |
 | ![Machine Learning](renders/machine-learning.png) | Machine Learning |
 

@@ -3,7 +3,7 @@
     <rdf:RDF>
       <cc:Work rdf:about="">
         <dc:subject>Big Data</dc:subject>
-        <dc:identifier>hdinsight</dc:identifier>
+        <dc:identifier>hdinsight-old</dc:identifier>
         <dc:title>HDInsight (Old)</dc:title>
         <dc:format>image/svg+xml</dc:format>
         <dc:publisher>Amido Limited</dc:publisher>
