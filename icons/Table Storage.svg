@@ -1,14 +1,16 @@
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" width="70.049" height="58.043">
-    <metadata>
-        <rdf:RDF>
-            <cc:Work>
-                <dc:format>
-                    image/svg+xml
-                </dc:format>
-                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-                <dc:title/>
-            </cc:Work>
-        </rdf:RDF>
-    </metadata>
+  <metadata id="metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:subject>Storage</dc:subject>
+        <dc:identifier>table-storage</dc:identifier>
+        <dc:title>Table Storage</dc:title>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:publisher>Amido Limited</dc:publisher>
+        <dc:creator>Richard Slater</dc:creator>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
     <path d="m 555.56259,251.71548 c -1.20323,0 -2.00141,0.70882 -2.00141,2.00141 l 0,54.03811 c 0,1.11388 0.5688,2.00141 2.00141,2.00141 l 66.04658,0 c 1.38194,0.0476 2.00342,-0.79819 2.00142,-2.00141 l 0,-54.03811 c 0,-1.15856 -0.83547,-2.00141 -2.00142,-2.00141 l -66.04658,0 z m 2.00141,16.01129 14.00988,0 0,8.00565 -14.00988,0 0,-8.00565 z m 16.01129,0 14.00988,0 0,8.00565 -14.00988,0 0,-8.00565 z m 16.01129,0 14.00988,0 0,8.00565 -14.00988,0 0,-8.00565 z m 16.01129,0 14.00989,0 0,8.00565 -14.00989,0 0,-8.00565 z m -48.03387,10.00706 14.00988,0 0,8.00564 -14.00988,0 0,-8.00564 z m 16.01129,0 14.00988,0 0,8.00564 -14.00988,0 0,-8.00564 z m 16.01129,0 14.00988,0 0,8.00564 -14.00988,0 0,-8.00564 z m 16.01129,0 14.00989,0 0,8.00564 -14.00989,0 0,-8.00564 z m -48.03387,10.00705 14.00988,0 0,8.00565 -14.00988,0 0,-8.00565 z m 16.01129,0 14.00988,0 0,8.00565 -14.00988,0 0,-8.00565 z m 16.01129,0 14.00988,0 0,8.00565 -14.00988,0 0,-8.00565 z m 16.01129,0 14.00989,0 0,8.00565 -14.00989,0 0,-8.00565 z m -48.03387,10.00706 14.00988,0 0,8.00564 -14.00988,0 0,-8.00564 z m 16.01129,0 14.00988,0 0,8.00564 -14.00988,0 0,-8.00564 z m 16.01129,0 14.00988,0 0,8.00564 -14.00988,0 0,-8.00564 z m 16.01129,0 14.00989,0 0,8.00564 -14.00989,0 0,-8.00564 z" fill="#00bcf2" transform="translate(-553.561 -251.715)"/>
 </svg>

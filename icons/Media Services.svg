@@ -1,14 +1,16 @@
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" width="62.058" height="69.815">
-    <metadata>
-        <rdf:RDF>
-            <cc:Work>
-                <dc:format>
-                    image/svg+xml
-                </dc:format>
-                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-                <dc:title/>
-            </cc:Work>
-        </rdf:RDF>
-    </metadata>
+  <metadata id="metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:subject>Compute</dc:subject>
+        <dc:identifier>media-services</dc:identifier>
+        <dc:title>Media Services</dc:title>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:publisher>Amido Limited</dc:publisher>
+        <dc:creator>Richard Slater</dc:creator>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
     <path d="m 376.00093,497.45458 -32.02991,18.01683 0,14.01308 6.00561,0 c 14.01309,-30.02804 38.03552,-30.02804 50.04674,0 l 6.00561,0 0,-14.01308 -30.02805,-18.01683 z M 375,515.47141 c -9.39762,0 -17.01589,7.61827 -17.01589,17.01589 0,9.39761 7.61827,17.01589 17.01589,17.01589 9.39761,0 17.01589,-7.61828 17.01589,-17.01589 0,-9.39762 -7.61828,-17.01589 -17.01589,-17.01589 z m -5.06723,7.88236 16.70309,10.00934 -16.70309,10.00935 0,-20.01869 z m -25.96175,14.01308 0,13.13727 32.02991,16.76566 30.02805,-16.76566 0,-13.13727 -6.00561,0 c -12.01122,28.03104 -36.03365,28.03104 -50.04674,0 l -6.00561,0 z" fill="#00bcf2" transform="translate(-343.971 -497.455)"/>
 </svg>
