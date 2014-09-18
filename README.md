@@ -21,7 +21,7 @@ Compute
 | Icon | Title |
 |:---- |:----- |
 | ![API Management](renders/api-management.png) | API Management |
-| ![automation](renders/automation.png) | automation |
+| ![Automation](renders/automation.png) | Automation |
 | ![Autoscale](renders/autoscale.png) | Autoscale |
 | ![Cloud Services](renders/cloud-services.png) | Cloud Services |
 | ![Media Services](renders/media-services.png) | Media Services |
