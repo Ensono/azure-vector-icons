@@ -69,3 +69,52 @@ Task Render -Depends "Inspect Metadata" {
     & $inkscape $inputParameter $outputParameter $additionalParameters; 
   }
 }
+
+Task OptimizeRenders {
+  $pngquant = Resolve-Path "$PSScriptRoot\tools\pngquant.exe";
+  $deflopt = Resolve-Path "$PSScriptRoot\tools\DeflOpt.exe";
+  $optipng = Resolve-Path "$PSScriptRoot\tools\optipng.exe";
+  $pngout = Resolve-Path "$PSScriptRoot\tools\pngout.exe";
+
+  $pngquantParms = @("256", "--force");
+  $optipngParams = @("-o7", "-quiet");
+  $pngoutParams = @("/y", "/d0", "/s0", "/mincodes0", "/q");
+  $defloptParams = @("/s");
+
+  $allRenders = Get-ChildItem -Path "$PSScriptRoot\renders" -Filter "*.png";
+  foreach ($render in $allRenders | Where-Object { -Not $_.FullName.EndsWith("-fs8.png") }) {
+    Write-Host -ForegroundColor Magenta "  Optimizing $($render.BaseName)";
+    $outputName = "$PSScriptRoot\renders\$($render.BaseName)-fs8.png";
+
+    & $pngquant $pngquantParms $render.FullName;
+
+    if (Test-Path $outputName) {
+      $quantImage = Get-ChildItem $outputName;
+      $saving = 100 - ([Math]::Round(($quantImage.Length / $render.Length) * 100, 2) );
+      Write-Host -ForegroundColor Yellow "    PNG Quantizeation Saved $($saving)%";
+
+      & $optipng $optipngParams $outputName;
+      $optipngImage = Get-ChildItem $outputName;
+      $saving = 100 - ([Math]::Round(($optipngImage.Length / $render.Length) * 100, 2) );
+      Write-Host -ForegroundColor Yellow "    PNG Optimization Saved $($saving)%";
+
+      & $pngout $pngoutParams $outputName;
+      $pngoutImage = Get-ChildItem $outputName;
+      $saving = 100 - ([Math]::Round(($pngoutImage.Length / $render.Length) * 100, 2) );
+      Write-Host -ForegroundColor Yellow "    PNG Out Saved $($saving)%";
+
+      & $deflopt $defloptParams $outputName | Out-Null;
+      $defloptImage = Get-ChildItem $outputName;
+      $saving = 100 - ([Math]::Round(($defloptImage.Length / $render.Length) * 100, 2) );
+      Write-Host -ForegroundColor Yellow "    Deflate Optimization Saved $($saving)%";
+
+      if ($saving -gt 0) {
+        Remove-Item $render.FullName;
+
+        Move-Item $outputName $render.FullName;
+      } else {
+        Remove-Item $outputName;
+      }
+    }
+  }    
+}
