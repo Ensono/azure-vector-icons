@@ -116,5 +116,19 @@ Task OptimizeRenders {
         Remove-Item $outputName;
       }
     }
-  }    
+  } 
+}
+
+Task InstallSVGO -PreCondition { (Get-Command npm -ErrorAction Ignore) -And -Not (Test-Path .\tools\node_modules\svgo) } {
+  Push-Location "$PSScriptRoot\tools";
+  & npm install svgo;
+  Pop-Loction;
+}
+
+Task OptimizeVectors -Depends InstallSVGO -PreCondition { (Get-Command npm -ErrorAction Ignore) -And (Test-Path .\tools\node_modules\svgo) } {
+  $allSvgDocuments = Get-ChildItem -Path "$PSScriptRoot\icons" -Filter "*.svg";
+
+  foreach ($svgDocument in $allSvgDocuments) {
+    & node "$PSScriptRoot\tools\node_modules\svgo\bin\svgo" --disable=Metadata -i $svgDocument.FullName;
+  }
 }
