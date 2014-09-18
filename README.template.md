@@ -6,4 +6,3 @@ A set of vector (SVG) icons depicting Microsoft Azure Platform Services. Designe
 The Icons
 =========
 
-{{ICONS}}

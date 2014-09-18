@@ -20,7 +20,7 @@ Task "Inspect Metadata" {
 
       Write-Host -NoNewLine -ForegroundColor Green "  [SUCCESS] "
       Write-Host -ForegroundColor Yellow "$($icon.BaseName)";
-  } catch {
+    } catch {
       Write-Host -NoNewLine -ForegroundColor Red "  [FAILED ] "
       Write-Host -ForegroundColor Yellow "$($icon.BaseName)";
       Write-Host -ForegroundColor Red "    " + $_.ToString();
@@ -148,5 +148,32 @@ Task OptimizeVectors -Depends InstallSVGO -PreCondition { (Get-Command npm -Erro
         Remove-Item $outputName;
       }
     }
+  }
+}
+
+Task UpdateReadme -Depends "Inspect Metadata" {
+  $icons = Get-ChildItem "$PSScriptRoot\icons" `
+    | Select-Object BaseName, Name, @{ Name="Content"; Expression={[xml](Get-Content $_.FullName);} } `
+    | Select-Object BaseName, Name, Content, @{ Name="Metadata"; Expression={ $_.Content.svg.metadata.rdf.Work } } `
+    | Select-Object BaseName, Name, `
+        @{ Name="Category"; Expression={ $_.Metadata.subject } }, `
+        @{ Name="Title"; Expression={ $_.Metadata.title } }, `
+        @{ Name="Identifier"; Expression={ $_.Metadata.identifier } };
+
+  $categories = $icons | Group-Object -Property "Category" | Sort-Object -Property Name;
+
+  $readmeFile = "$PSScriptRoot\README.md";
+  Copy-Item "$PSScriptRoot\README.template.md" $readmeFile;
+
+  foreach ($category in $categories) {
+    Add-Content $readmeFile $category.Name.Trim();
+    Add-Content $readmeFile (New-Object System.String -ArgumentList "-", $category.Name.Length);
+    Add-Content $readmeFile "";
+    Add-Content $readmeFile "| Icon | Title |";
+    Add-Content $readmeFile "|:---- |:----- |";
+    foreach ($icon in $category.Group) {
+      Add-Content $readmeFile "| ![$($icon.Title.Trim())](renders/$($icon.Identifier.Trim()).png) | $($icon.Title.Trim()) |";
+    }
+    Add-Content $readmeFile "";
   }
 }

@@ -6,53 +6,78 @@ A set of vector (SVG) icons depicting Microsoft Azure Platform Services. Designe
 The Icons
 =========
 
+Big Data
+--------
+
+| Icon | Title |
+|:---- |:----- |
+| ![HDInsight (Old)](renders/hdinsight.png) | HDInsight (Old) |
+| ![HDInsight](renders/hdinsight.png) | HDInsight |
+| ![Machine Learning](renders/machine-learning.png) | Machine Learning |
+
 Compute
 -------
 
 | Icon | Title |
 |:---- |:----- |
-| ![Cloud Services](renders/cloud-services.png) | Cloud Services |
-| ![Virtual Machines](renders/virtual-machines.png) | Virtual Machines |
-| ![ElasticSearch on VM](renders/virtual-machine---elasticsearch.png) | ElasticSearch on VM |
-| ![Automation](renders/automation.png) | Automation |
-| ![Web Sites](renders/web-sites.png) | Web Sites |
 | ![API Management](renders/api-management.png) | API Management |
-| ![media-services](renders/media-services.png) | media-services |
-| ![mobile-services](renders/mobile-services.png) | mobile-services |
-| ![scheduler](renders/scheduler.png) | scheduler |
+| ![automation](renders/automation.png) | automation |
+| ![Autoscale](renders/autoscale.png) | Autoscale |
+| ![Azure Load Balancer](renders/azure-load-balancer.png) | Azure Load Balancer |
+| ![Cloud Services](renders/cloud-services.png) | Cloud Services |
+| ![Media Services](renders/media-services.png) | Media Services |
+| ![Mobile Services](renders/mobile-services.png) | Mobile Services |
+| ![RemoteApp](renders/remoteapp.png) | RemoteApp |
+| ![Scheduler](renders/scheduler.png) | Scheduler |
+| ![Virtual Machine - ElasticSearch](renders/virtual-machine-elasticsearch.png) | Virtual Machine - ElasticSearch |
+| ![Virtual Machines](renders/virtual-machines.png) | Virtual Machines |
+| ![Websites](renders/websites.png) | Websites |
 
-Data Services
+Identity
+--------
+
+| Icon | Title |
+|:---- |:----- |
+| ![Azure Active Directory](renders/azure-active-directory.png) | Azure Active Directory |
+| ![Azure Active Directory Access Control Services (ACS)](renders/azure-active-directory-access-control-services-acs.png) | Azure Active Directory Access Control Services (ACS) |
+
+Messaging
+---------
+
+| Icon | Title |
+|:---- |:----- |
+| ![BizTalk Services](renders/biztalk-services.png) | BizTalk Services |
+| ![Event Hub](renders/event-hub.png) | Event Hub |
+| ![Service Bus](renders/service-bus.png) | Service Bus |
+
+Miscellaneous
 -------------
 
 | Icon | Title |
 |:---- |:----- |
-| ![biztalk-services](renders/biztalk-services.png) | biztalk-services |
-| ![hdinsight](renders/hdinsight.png) | hdinsight |
-| ![cache](renders/cache.png) | cache |
-| ![machine-learning](renders/machine-learning.png) | machine-learning |
-| ![table-storage](renders/table-storage.png) | table-storage |
+| ![Add-Ons](renders/add-ons.png) | Add-Ons |
+| ![Akert](renders/alert.png) | Akert |
+| ![Management Service](renders/management-service.png) | Management Service |
+| ![Visual Studio Online](renders/visual-studio-online.png) | Visual Studio Online |
+| ![Windows Azure](renders/windows-azure.png) | Windows Azure |
 
-Network Services
-----------------
-
-| Icon | Title |
-|:---- |:----- |
-| ![cdn](renders/cdn.png) | cdn |
-| ![network](renders/network.png) | network |
-| ![recovery-services](renders/recovery-services.png) | recovery-services |
-| ![service-bus](renders/service-bus.png) | service-bus |
-| ![sql-azure](renders/sql-azure.png) | sql-azure |
-| ![storsimple](renders/storsimple.png) | storsimple |
-| ![traffic-manager](renders/traffic-manager.png) | traffic-manager |
-
-Misc
-----
+Network
+-------
 
 | Icon | Title |
 |:---- |:----- |
-| ![active-directory](renders/azure-active-directory-aad.png) | active-directory |
-| ![access-control](renders/azure-active-directory-access-control-services-acs.png) | Azure AD Access Control Services (ACS) |
-| ![add-ons](renders/add-ons.png) | add-ons |
-| ![management-service](renders/management-service.png) | management-service |
-| ![visual-studio](renders/visual-studio.png) | visual-studio |
-| ![windows-azure](renders/windows-azure.png) | windows-azure |
+| ![Content Delivery Network](renders/content-delivery-network.png) | Content Delivery Network |
+| ![Network](renders/network.png) | Network |
+| ![Traffic Manager](renders/traffic-manager.png) | Traffic Manager |
+
+Storage
+-------
+
+| Icon | Title |
+|:---- |:----- |
+| ![Cache](renders/cache.png) | Cache |
+| ![Recovery Services](renders/recovery-services.png) | Recovery Services |
+| ![SQL Azure](renders/sql-azure.png) | SQL Azure |
+| ![StorSimple](renders/storsimple.png) | StorSimple |
+| ![Table Storage](renders/table-storage.png) | Table Storage |
+
