@@ -65,7 +65,7 @@ Task Render -Depends "Inspect Metadata" {
     $additionalParameters = @("--export-area-page", "--export-background-opacity=0.0");
   
     Write-Host -ForegroundColor Magenta "  Rendering $($icon.Title)";
-    & $inkscape $inputParameter $outputParameter $additionalParameters; 
+    & $inkscape $inputParameter $outputParameter $additionalParameters | Write-Verbose; 
   }
 }
 
@@ -130,20 +130,14 @@ Task OptimizeVectors -Depends InstallSVGO -PreCondition { (Get-Command npm -Erro
   foreach ($icon in Get-Icons) {
     Write-Host -ForegroundColor Magenta "  Optimizing $($icon.Title)";
     $outputName = "$PSScriptRoot\icons\$($icon.Title)-opt.svg";
-    & node $svgoParams --input $($icon.FullName) --output $outputName | Out-Null;
+    & node $svgoParams --input $($icon.FullName) --output $outputName | Write-Verbose;
 
     if (Test-Path $outputName) {
       $optimizedSvg = Get-ChildItem $outputName;
       $saving = 100 - ([Math]::Round(($optimizedSvg.Length / $icon.Length) * 100, 2) );
       Write-Host -ForegroundColor Yellow "    SVG Optimization Saved $($saving)%";
-
-      if ($saving -gt 0) {
-        Remove-Item $icon.FullName;
-
-        Move-Item $outputName $icon.FullName;
-      } else {
-        Remove-Item $outputName;
-      }
+      Remove-Item $icon.FullName;
+      Move-Item $outputName $icon.FullName;
     }
   }
 }

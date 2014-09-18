@@ -1,17 +1,29 @@
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" width="60.323" height="63.929">
-  <metadata id="metadata">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:subject>Big Data</dc:subject>
-        <dc:identifier>machine-learning</dc:identifier>
-        <dc:title>Machine Learning</dc:title>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:publisher>Amido Limited</dc:publisher>
-        <dc:creator>Richard Slater</dc:creator>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:subject>
+                    Big Data
+                </dc:subject>
+                <dc:identifier>
+                    machine-learning
+                </dc:identifier>
+                <dc:title>
+                    Machine Learning
+                </dc:title>
+                <dc:format>
+                    image/svg+xml
+                </dc:format>
+                <dc:publisher>
+                    Amido Limited
+                </dc:publisher>
+                <dc:creator>
+                    Richard Slater
+                </dc:creator>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
     <g color="#000">
         <path d="m 238.91338,466.3526 0,7.32575 3.72011,0 0,10.81692 -18.19991,36.34258 5.60878,9.44335 7.32574,0 39.54762,0 2.17483,0 5.66601,-9.44335 -0.11447,0 -18.1999,-36.34258 0,-10.81692 3.60564,0 0,-7.32575 -31.13443,0 z m 11.16032,7.32575 9.04274,0 0,10.70246 -0.0571,0 4.75029,9.44335 -12.07604,0 -14.59427,29.13129 -4.17796,0 -1.20188,-2.06036 18.1999,-36.39982 0.11447,0 0,-10.81692 z" fill="#00bcf2" overflow="visible" enable-background="accumulate" transform="translate(-224.434 -466.353)"/>
         <path d="m 250.08305,473.6931 0,10.8125 -0.125,0 -18.1875,36.40625 1.1875,2.0625 4.1875,0 14.59375,-29.125 12.0625,0 -4.75,-9.4375 0.0625,0 0,-10.71875 z" fill="#fff" overflow="visible" enable-background="accumulate" transform="translate(-224.434 -466.353)"/>

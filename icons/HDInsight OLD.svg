@@ -1,16 +1,28 @@
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" width="64.06" height="64.06">
-  <metadata id="metadata">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:subject>Big Data</dc:subject>
-        <dc:identifier>hdinsight-old</dc:identifier>
-        <dc:title>HDInsight (Old)</dc:title>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:publisher>Amido Limited</dc:publisher>
-        <dc:creator>Richard Slater</dc:creator>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:subject>
+                    Big Data
+                </dc:subject>
+                <dc:identifier>
+                    hdinsight-old
+                </dc:identifier>
+                <dc:title>
+                    HDInsight (Old)
+                </dc:title>
+                <dc:format>
+                    image/svg+xml
+                </dc:format>
+                <dc:publisher>
+                    Amido Limited
+                </dc:publisher>
+                <dc:creator>
+                    Richard Slater
+                </dc:creator>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
     <path d="m 250.35018,466.2999 c -14.02891,0 -25.3962,3.4111 -25.83663,7.6947 l -0.0626,0 0,34.4071 12.76192,0 3.56583,-4.0038 -8.38283,0 0,-14.013 20.70683,0 5.31747,-6.0057 0,6.0057 8.00748,0 0,10.0093 9.82167,0 0,-26.3996 -0.0626,0 c -0.44041,-4.2836 -11.80773,-7.6947 -25.83663,-7.6947 z m 25.89918,34.0943 0,4.0037 4.19141,0 0,4.0038 8.00748,-6.0056 -8.00748,-6.0056 0,4.0037 -4.19141,0 z m 0,4.0037 -9.82167,0 0,14.0131 -8.00748,0 0,6.0056 -12.01122,0 0,-6.0056 -18.01682,0 5.31747,-6.0056 -9.25865,0 0,9.5715 c -0.0224,0.1359 -0.0626,0.3003 -0.0626,0.4379 0,0.086 0.054,0.1025 0.0626,0.1875 0.44043,4.2837 11.80773,7.7573 25.83663,7.7573 14.0289,0 25.39619,-3.4736 25.83662,-7.7573 l 0.12512,0 0,-18.2045 z m -51.79837,8.0075 0,-4.0037 -0.0626,0 0,4.0037 0.0626,0 z m 26.21198,-42.4146 c 10.87537,0 19.7059,2.2633 19.7059,5.0047 0,2.7414 -8.83053,5.0047 -19.7059,5.0047 -10.87538,0 -19.64335,-2.2633 -19.64335,-5.0047 0,-2.7414 8.76797,-5.0047 19.64335,-5.0047 z m -14.26332,24.3978 0,6.0056 7.88236,0 5.31746,-6.0056 -13.19982,0 z m 22.02056,0 0,6.0056 4.00374,0 0,-6.0056 -4.00374,0 z m -4.00374,2.0019 -3.56583,4.0037 3.56583,0 0,-4.0037 z m -7.13166,8.0074 -3.56583,4.0038 6.69375,0 0,6.0056 4.00374,0 0,-10.0094 -7.13166,0 z m 11.1354,0 0,10.0094 4.00374,0 0,-10.0094 -4.00374,0 z m -18.26706,8.0075 -1.75163,2.0019 8.00747,0 0,-2.0019 -6.25584,0 z m 10.25958,6.0056 0,2.0019 4.00374,0 0,-2.0019 -4.00374,0 z" fill="#00bcf2" transform="translate(-224.388 -466.3)"/>
 </svg>

@@ -2,8 +2,9 @@
     <metadata>
         <rdf:RDF>
             <cc:Work>
-                        <dc:subject>Compute</dc:subject>
-
+                <dc:subject>
+                    Compute
+                </dc:subject>
                 <dc:format>
                     image/svg+xml
                 </dc:format>

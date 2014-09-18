@@ -23,7 +23,6 @@ Compute
 | ![API Management](renders/api-management.png) | API Management |
 | ![automation](renders/automation.png) | automation |
 | ![Autoscale](renders/autoscale.png) | Autoscale |
-| ![Azure Load Balancer](renders/azure-load-balancer.png) | Azure Load Balancer |
 | ![Cloud Services](renders/cloud-services.png) | Cloud Services |
 | ![Media Services](renders/media-services.png) | Media Services |
 | ![Mobile Services](renders/mobile-services.png) | Mobile Services |
@@ -56,7 +55,7 @@ Miscellaneous
 | Icon | Title |
 |:---- |:----- |
 | ![Add-Ons](renders/add-ons.png) | Add-Ons |
-| ![Akert](renders/alert.png) | Akert |
+| ![Alert](renders/alert.png) | Alert |
 | ![Management Service](renders/management-service.png) | Management Service |
 | ![Visual Studio Online](renders/visual-studio-online.png) | Visual Studio Online |
 | ![Windows Azure](renders/windows-azure.png) | Windows Azure |
@@ -66,6 +65,7 @@ Network
 
 | Icon | Title |
 |:---- |:----- |
+| ![Azure Load Balancer](renders/azure-load-balancer.png) | Azure Load Balancer |
 | ![Content Delivery Network](renders/content-delivery-network.png) | Content Delivery Network |
 | ![Network](renders/network.png) | Network |
 | ![Traffic Manager](renders/traffic-manager.png) | Traffic Manager |

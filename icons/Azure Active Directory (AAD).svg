@@ -1,16 +1,28 @@
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" width="65.755" height="69.018">
-  <metadata id="metadata">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:subject>Identity</dc:subject>
-        <dc:identifier>azure-active-directory</dc:identifier>
-        <dc:title>Azure Active Directory</dc:title>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:publisher>Amido Limited</dc:publisher>
-        <dc:creator>Richard Slater</dc:creator>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:subject>
+                    Identity
+                </dc:subject>
+                <dc:identifier>
+                    azure-active-directory
+                </dc:identifier>
+                <dc:title>
+                    Azure Active Directory
+                </dc:title>
+                <dc:format>
+                    image/svg+xml
+                </dc:format>
+                <dc:publisher>
+                    Amido Limited
+                </dc:publisher>
+                <dc:creator>
+                    Richard Slater
+                </dc:creator>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
     <path d="m 307.17101,380.86847 -33.37955,40.03036 33.37955,28.9875 32.37565,-29.11299 -32.37565,-39.90487 z m -0.62744,18.00739 c 2.73032,0 4.95674,2.22642 4.95674,4.95673 0,1.21954 -0.46013,2.33784 -1.19213,3.19992 l 7.34099,8.53312 c 0.82348,-0.61334 1.84323,-0.94115 2.94895,-0.94115 2.73031,0 4.95673,2.22642 4.95673,4.95673 0,2.73032 -2.22642,4.894 -4.95673,4.894 -1.60917,0 -2.98736,-0.75469 -3.8901,-1.94505 l -5.7724,5.08222 c 0.3421,0.67225 0.56469,1.39006 0.56469,2.19603 0,2.73031 -2.22642,4.95673 -4.95674,4.95673 -2.73032,0 -4.95674,-2.22642 -4.95674,-4.95673 0,-1.10578 0.3905,-2.12545 1.0039,-2.94895 l -4.3293,-3.95284 c -0.90291,0.97384 -2.20639,1.56859 -3.63913,1.56859 -2.73031,0 -4.95673,-2.16368 -4.95673,-4.894 0,-2.73031 2.22642,-4.95673 4.95673,-4.95673 0.61433,0 1.21416,0.10902 1.75682,0.31371 l 6.39984,-7.90568 c -0.732,-0.86208 -1.19213,-1.98038 -1.19213,-3.19992 0,-2.73031 2.22642,-4.95673 4.95674,-4.95673 z m -2.38425,9.28604 -6.21161,7.78019 c 0.98663,0.90381 1.63133,2.19564 1.63133,3.63912 0,0.68259 -0.12629,1.29085 -0.37646,1.88231 l 4.58028,4.26656 c 0.78902,-0.53305 1.73684,-0.87841 2.76071,-0.87841 1.39702,0 2.67729,0.57417 3.57638,1.50584 l 5.83515,-5.20771 c -0.17548,-0.50687 -0.25098,-1.00205 -0.25098,-1.56859 0,-0.9751 0.26557,-1.93201 0.75292,-2.69797 l -7.59196,-8.72134 c -0.69492,0.37264 -1.47782,0.62743 -2.32151,0.62743 -0.86275,0 -1.67827,-0.23897 -2.38425,-0.62743 z" fill="#00bcf2" transform="translate(-273.791 -380.868)"/>
 </svg>

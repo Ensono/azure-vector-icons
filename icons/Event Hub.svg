@@ -2,7 +2,9 @@
     <metadata>
         <rdf:RDF>
             <cc:Work>
-                <dc:subject>Messaging</dc:subject>
+                <dc:subject>
+                    Messaging
+                </dc:subject>
                 <dc:format>
                     image/svg+xml
                 </dc:format>

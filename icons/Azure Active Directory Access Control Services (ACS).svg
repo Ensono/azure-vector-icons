@@ -2,7 +2,9 @@
     <metadata>
         <rdf:RDF>
             <cc:Work>
-                <dc:subject>Identity</dc:subject>
+                <dc:subject>
+                    Identity
+                </dc:subject>
                 <dc:format>
                     image/svg+xml
                 </dc:format>
