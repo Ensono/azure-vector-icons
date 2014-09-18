@@ -1,4 +1,5 @@
 Task default -Depends "Inspect Metadata", Render
+Task full -Depends "Inspect Metadata", OptimizeVectors, DeleteRenders, Render, OptimizeRenders
 
 Task CreateRendersFolder -PreCondition { -Not (Test-Path "$PSScriptRoot\renders") } {
   New-Item -ItemType Container "$PSScriptRoot\renders";
@@ -15,7 +16,7 @@ Task "Inspect Metadata" {
       $icon.SVGDocument.SelectNodes('//namespace::*[not(. = ../../namespace::*)]') `
         | Where-Object { $_.LocalName -ne 'xmlns' } `
         | ForEach-Object { $namespaceManager.AddNamespace($_.LocalName, $_.Value) }
-      $metadata = $icon.SVGDocument.SelectSingleNode('//svg:svg/svg:metadata/rdf:RDF/cc:work', $namespaceManager).RDF.cc;
+      $metadata = $icon.SVGDocument.SelectSingleNode('//svg/metadata/rdf:RDF/cc:work', $namespaceManager).RDF.cc;
 
       Write-Host -NoNewLine -ForegroundColor Green "  [SUCCESS] "
       Write-Host -ForegroundColor Yellow "$($icon.BaseName)";
