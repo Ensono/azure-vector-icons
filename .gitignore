@@ -13,3 +13,6 @@
 
 # vim Temp Files
 *~
+
+# node modules
+tools/node_modules/
