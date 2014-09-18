@@ -1,58 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="66"
-   height="66"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="RemoteApp.svg">
-  <metadata id="metadata">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>RemoteApp</dc:title>
-        <dc:creator>Richard Slater</dc:creator>
-        <dc:identifier>remoteapp</dc:identifier>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <path
-     id="path180"
-     style="fill:#00bcf2;fill-opacity:1"
-     d="M 33,0 C 14.64375,0 0,15.05625 0,33 0,51.35625 15.05625,66 33,66 50.94375,66 66,50.94375 66,33 66,15.05625 51.35625,0 33,0 z m 0,4.33125 C 48.88125,4.33125 61.66875,17.11875 61.66875,33 61.66875,48.88125 48.675,61.66875 33,61.66875 17.325,61.66875 4.33125,48.675 4.33125,33 4.33125,17.325 17.11875,4.33125 33,4.33125 z M 16.0875,48.675 20.41875,53.00625 34.65,38.775 20.41875,24.54375 16.0875,29.2875 25.78125,38.98125 z M 31.35,27.225 45.58125,41.45625 49.9125,37.33125 40.21875,27.6375 49.9125,17.325 45.58125,12.99375 z"
-     inkscape:connector-curvature="0" />
-  <defs
-     id="defs4" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="9.413359"
-     inkscape:cx="32.948359"
-     inkscape:cy="-12.677459"
-     inkscape:document-units="px"
-     inkscape:current-layer="svg2"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="66" height="66">
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:format>
+                    image/svg+xml
+                </dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                <dc:title>
+                    RemoteApp
+                </dc:title>
+                <dc:creator>
+                    Richard Slater
+                </dc:creator>
+                <dc:identifier>
+                    remoteapp
+                </dc:identifier>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <path d="M 33,0 C 14.64375,0 0,15.05625 0,33 0,51.35625 15.05625,66 33,66 50.94375,66 66,50.94375 66,33 66,15.05625 51.35625,0 33,0 z m 0,4.33125 C 48.88125,4.33125 61.66875,17.11875 61.66875,33 61.66875,48.88125 48.675,61.66875 33,61.66875 17.325,61.66875 4.33125,48.675 4.33125,33 4.33125,17.325 17.11875,4.33125 33,4.33125 z M 16.0875,48.675 20.41875,53.00625 34.65,38.775 20.41875,24.54375 16.0875,29.2875 25.78125,38.98125 z M 31.35,27.225 45.58125,41.45625 49.9125,37.33125 40.21875,27.6375 49.9125,17.325 45.58125,12.99375 z" fill="#00bcf2"/>
 </svg>

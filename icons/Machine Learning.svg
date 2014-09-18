@@ -1,81 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="60.322979"
-   height="63.9286"
-   id="svg3146"
-   version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Machine Learning.svg">
-  <defs
-     id="defs3148" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="6.6500468"
-     inkscape:cx="10.330757"
-     inkscape:cy="9.3200278"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid2998"
-       empspacing="5"
-       visible="true"
-       enabled="true"
-       snapvisiblegridlinesonly="true"
-       originx="67.24757px"
-       originy="0.14715998px" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata3151">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-224.43358,-466.3526)">
-    <path
-       id="rect3002"
-       style="color:#000000;fill:#00bcf2;fill-opacity:1;fill-rule:nonzero;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 238.91338,466.3526 0,7.32575 3.72011,0 0,10.81692 -18.19991,36.34258 5.60878,9.44335 7.32574,0 39.54762,0 2.17483,0 5.66601,-9.44335 -0.11447,0 -18.1999,-36.34258 0,-10.81692 3.60564,0 0,-7.32575 -31.13443,0 z m 11.16032,7.32575 9.04274,0 0,10.70246 -0.0571,0 4.75029,9.44335 -12.07604,0 -14.59427,29.13129 -4.17796,0 -1.20188,-2.06036 18.1999,-36.39982 0.11447,0 0,-10.81692 z"
-       inkscape:connector-curvature="0" />
-    <path
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 250.08305,473.6931 0,10.8125 -0.125,0 -18.1875,36.40625 1.1875,2.0625 4.1875,0 14.59375,-29.125 12.0625,0 -4.75,-9.4375 0.0625,0 0,-10.71875 z"
-       id="rect3914"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccc" />
-  </g>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" width="60.323" height="63.929">
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:format>
+                    image/svg+xml
+                </dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                <dc:title/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <g color="#000">
+        <path d="m 238.91338,466.3526 0,7.32575 3.72011,0 0,10.81692 -18.19991,36.34258 5.60878,9.44335 7.32574,0 39.54762,0 2.17483,0 5.66601,-9.44335 -0.11447,0 -18.1999,-36.34258 0,-10.81692 3.60564,0 0,-7.32575 -31.13443,0 z m 11.16032,7.32575 9.04274,0 0,10.70246 -0.0571,0 4.75029,9.44335 -12.07604,0 -14.59427,29.13129 -4.17796,0 -1.20188,-2.06036 18.1999,-36.39982 0.11447,0 0,-10.81692 z" fill="#00bcf2" overflow="visible" enable-background="accumulate" transform="translate(-224.434 -466.353)"/>
+        <path d="m 250.08305,473.6931 0,10.8125 -0.125,0 -18.1875,36.40625 1.1875,2.0625 4.1875,0 14.59375,-29.125 12.0625,0 -4.75,-9.4375 0.0625,0 0,-10.71875 z" fill="#fff" overflow="visible" enable-background="accumulate" transform="translate(-224.434 -466.353)"/>
+    </g>
 </svg>

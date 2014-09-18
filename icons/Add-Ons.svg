@@ -1,64 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="69.064499"
-   height="66.186798"
-   id="svg3083"
-   version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 7">
-  <defs
-     id="defs3085" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-416.18204"
-     inkscape:cy="198.80769"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="463"
-     inkscape:window-height="401"
-     inkscape:window-x="2154"
-     inkscape:window-y="234"
-     inkscape:window-maximized="0" />
-  <metadata id="metadata">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Add-Ons</dc:title>
-        <dc:creator>Richard Slater</dc:creator>
-        <dc:identifier>add-ons</dc:identifier>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-791.18204,-664.98307)">
-    <path
-       style="fill:#00bcf2;fill-opacity:1;stroke:none"
-       d="m 801.6293,664.98307 -10.3847,18.0168 8.69562,15.0766 -8.75818,15.0766 10.3847,18.0168 20.76939,0 9.38377,-16.1401 18.70497,0 9.82167,-16.9533 -9.82167,-17.0159 -18.70497,0 -9.25865,-16.0775 -20.83195,0 z m 7.56957,6.0681 6.0056,0 0,8.0075 8.00748,0 0,6.0056 -8.00748,0 0,8.0075 -6.0056,0 0,-8.0075 -8.00748,0 0,-6.0056 8.00748,0 0,-8.0075 z m 22.39591,13.9506 16.51543,0 8.32027,13.1372 -8.32027,13.0747 -16.51543,0 -8.25771,-13.0747 8.25771,-13.1372 z m 7.63213,6.0681 c -4.42241,0 -8.00748,3.137 -8.00748,7.0066 0,3.8696 3.58507,7.0065 8.00748,7.0065 4.42241,0 8.00748,-3.1369 8.00748,-7.0065 0,-3.8696 -3.58507,-7.0066 -8.00748,-7.0066 z m -35.72086,9.8217 16.57798,0 8.25771,13.1373 -8.25771,13.0747 -16.57798,0 -8.25771,-13.0747 8.25771,-13.1373 z"
-       id="path4165"
-       inkscape:connector-curvature="0" />
-  </g>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" width="69.064" height="66.187">
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:format>
+                    image/svg+xml
+                </dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+                <dc:title>
+                    Add-Ons
+                </dc:title>
+                <dc:creator>
+                    Richard Slater
+                </dc:creator>
+                <dc:identifier>
+                    add-ons
+                </dc:identifier>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <path d="m 801.6293,664.98307 -10.3847,18.0168 8.69562,15.0766 -8.75818,15.0766 10.3847,18.0168 20.76939,0 9.38377,-16.1401 18.70497,0 9.82167,-16.9533 -9.82167,-17.0159 -18.70497,0 -9.25865,-16.0775 -20.83195,0 z m 7.56957,6.0681 6.0056,0 0,8.0075 8.00748,0 0,6.0056 -8.00748,0 0,8.0075 -6.0056,0 0,-8.0075 -8.00748,0 0,-6.0056 8.00748,0 0,-8.0075 z m 22.39591,13.9506 16.51543,0 8.32027,13.1372 -8.32027,13.0747 -16.51543,0 -8.25771,-13.0747 8.25771,-13.1372 z m 7.63213,6.0681 c -4.42241,0 -8.00748,3.137 -8.00748,7.0066 0,3.8696 3.58507,7.0065 8.00748,7.0065 4.42241,0 8.00748,-3.1369 8.00748,-7.0065 0,-3.8696 -3.58507,-7.0066 -8.00748,-7.0066 z m -35.72086,9.8217 16.57798,0 8.25771,13.1373 -8.25771,13.0747 -16.57798,0 -8.25771,-13.0747 8.25771,-13.1373 z" fill="#00bcf2" transform="translate(-791.182 -664.983)"/>
 </svg>
