@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="69.999634"
+   height="65.072998"
+   id="svg3129"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="Queue.svg">
+  <defs
+     id="defs3131" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="-79.746417"
+     inkscape:cy="66.480735"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata id="metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:subject>Code</dc:subject>
+        <dc:identifier>dropbox-codesource</dc:identifier>
+        <dc:title>Dropbox (Code Source)</dc:title>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:publisher>Amido Limited</dc:publisher>
+        <dc:creator>Richard Slater</dc:creator>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(56.682158,-533.7699)">
+    <path
+       style="fill:#00bcf2;fill-opacity:1"
+       d="m -32.092202,592.72453 -10.2027,-6.11139 0,-2.40919 c 0,-1.89178 0.037,-2.38663 0.1717,-2.30412 0.095,0.0578 1.4085,0.91477 2.92,1.90441 1.5115,0.98964 2.8207,1.84328 2.9093,1.89699 0.097,0.059 2.9753,-2.22078 7.2757,-5.76361 3.913,-3.2237 7.1867,-5.8678 7.2747,-5.8758 0.088,-0.008 3.2413,2.52069 7.0073,5.6193 3.766,3.0986 6.9854997,5.7431 7.1543997,5.87666 0.3034,0.2398 0.3448,0.21812 3.3285,-1.7405 1.6617,-1.09084 3.0573,-1.94728 3.1014,-1.90321 0.044,0.0441 0.08,1.08051 0.08,2.3032 0,1.94664 -0.03,2.24884 -0.2405,2.43034 -0.412,0.35517 -20.2458997,12.20266 -20.4160997,12.19529 -0.089,-0.004 -4.7523,-2.7571 -10.3638,-6.11837 z m -14.1985,-15.94337 c -5.6244,-3.66957 -10.2749,-6.71884 -10.3345,-6.77615 -0.059,-0.0573 3.0322,-2.62388 6.8706,-5.70349 3.8383,-3.0796 6.9963,-5.64668 7.0178,-5.70461 0.022,-0.0579 -3.1011,-2.62552 -6.9392,-5.70574 -3.8381,-3.08022 -6.9908,-5.63999 -7.0061,-5.68837 -0.039,-0.12367 20.4313,-13.42012 20.6325,-13.40172 0.09,0.008 3.3321,2.66717 7.2035,5.90865 3.8715,3.24148 7.0823,5.90881 7.1352,5.9274 0.053,0.0186 3.2748,-2.62709 7.1598,-5.87931 3.8849,-3.25222 7.1176997,-5.9466 7.1838997,-5.98752 0.1363,-0.0842 20.7306003,13.29402 20.6846003,13.43694 -0.016,0.0508 -3.1698,2.61115 -7.0077003,5.68963 -3.8378,3.07849 -6.96049997,5.64263 -6.93919997,5.6981 0.021,0.0555 3.17949997,2.62156 7.01839997,5.70241 3.8388003,3.08086 6.9302003,5.65112 6.8696003,5.7117 -0.061,0.0606 -4.7073003,3.11125 -10.3260003,6.77928 l -10.2157,6.66913 -2.4251,-2.03329 c -1.3337997,-1.11831 -4.5480997,-3.81218 -7.1429997,-5.98636 -2.6598,-2.22851 -4.7972,-3.9227 -4.8994,-3.88346 -0.1401,0.0538 -8.4704,6.97362 -13.6158,11.31051 l -0.6979,0.58823 -10.2263,-6.67196 z m 34.9277,-11.81153 c 5.5467997,-3.38091 10.1595997,-6.21519 10.2504997,-6.29841 0.12400003,-0.11335 -2.4058,-1.72006 -10.0819997,-6.40349 -5.6361,-3.4387 -10.3508,-6.25218 -10.477,-6.25218 -0.3296,0 -20.7662,12.4835 -20.6418,12.60887 0.302,0.30429 20.5849,12.58775 20.7133,12.54406 0.084,-0.0285 4.6903,-2.81794 10.237,-6.19885 z"
+       id="path3745"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

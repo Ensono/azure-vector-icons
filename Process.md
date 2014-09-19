@@ -11,8 +11,8 @@ Add Metadata:
     <rdf:RDF>
       <cc:Work rdf:about="">
         <dc:subject>Miscellaneous</dc:subject>
-        <dc:identifier>add-ons</dc:identifier>
-        <dc:title>Add-Ons</dc:title>
+        <dc:identifier>AAA</dc:identifier>
+        <dc:title>AAA</dc:title>
         <dc:format>image/svg+xml</dc:format>
         <dc:publisher>Amido Limited</dc:publisher>
         <dc:creator>Richard Slater</dc:creator>
