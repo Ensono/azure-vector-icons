@@ -1,66 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="47.492565"
-   height="70.000259"
-   id="svg3129"
-   version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="Startup File.svg">
-  <defs
-     id="defs3131" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="56.884402"
-     inkscape:cy="5.2356922"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
-  <metadata id="metadata">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:subject>Miscellaneous</dc:subject>
-        <dc:identifier>mobile</dc:identifier>
-        <dc:title>Mobile</dc:title>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:publisher>Amido Limited</dc:publisher>
-        <dc:creator>Richard Slater</dc:creator>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(60.653088,-677.83539)">
-    <path
-       style="fill:#00bcf2;fill-opacity:1"
-       d="m -57.751301,747.54907 c -0.93707,-0.3601 -1.99781,-1.3954 -2.4766,-2.4171 l -0.37123,-0.7922 -0.0355,-31.2104 c -0.0392,-34.4979 -0.1023,-31.9774 0.83303,-33.293 0.58608,-0.8243 1.32136,-1.3943 2.24404,-1.7395 0.74667,-0.2794 0.88571,-0.281 20.82584,-0.2456 l 20.07415,0.036 0.92976,0.4577 c 1.08482,0.5341 1.83709,1.3814 2.28184,2.5701 l 0.28545,0.7629 -0.0352,31.334 -0.0352,31.3339 -0.45127,0.9166 c -0.54172,1.1004 -1.40116,1.9066 -2.45129,2.2995 -0.73808,0.2762 -0.96367,0.2791 -20.82101,0.272 -19.80541,-0.01 -20.08454,-0.011 -20.7968,-0.2846 z m 25.71423,-4.6777 c 0.43564,-0.1985 0.75131,-0.767 0.75131,-1.3532 0,-0.3087 -0.13355,-0.566 -0.46682,-0.8992 l -0.46682,-0.4669 -4.41412,0 c -4.86773,0 -5.01611,0.023 -5.44005,0.8428 -0.30228,0.5846 -0.15803,1.2461 0.36828,1.689 l 0.41776,0.3515 4.44523,0 c 3.15398,0 4.5498,-0.048 4.80523,-0.164 z m 14.06932,-32.4445 0,-25.1944 -18.94728,0 -18.94728,0 0,25.1944 0,25.1944 18.94728,0 18.94728,0 0,-25.1944 z m -9.89088,-27.9663 c 0.19291,-0.207 0.27994,-0.4864 0.27994,-0.8987 0,-0.7715 -0.41607,-1.2158 -1.25277,-1.3377 -0.89611,-0.1306 -16.35075,-0.022 -16.63552,0.1165 -0.66346,0.3234 -0.84569,1.5478 -0.31008,2.0834 l 0.33701,0.337 8.65073,0 8.65074,0 0.27995,-0.3005 z"
-       id="path3787"
-       inkscape:connector-curvature="0" />
-  </g>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" width="47.493" height="70">
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:subject>
+                    Miscellaneous
+                </dc:subject>
+                <dc:identifier>
+                    mobile
+                </dc:identifier>
+                <dc:title>
+                    Mobile
+                </dc:title>
+                <dc:format>
+                    image/svg+xml
+                </dc:format>
+                <dc:publisher>
+                    Amido Limited
+                </dc:publisher>
+                <dc:creator>
+                    Richard Slater
+                </dc:creator>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <path d="m -57.751301,747.54907 c -0.93707,-0.3601 -1.99781,-1.3954 -2.4766,-2.4171 l -0.37123,-0.7922 -0.0355,-31.2104 c -0.0392,-34.4979 -0.1023,-31.9774 0.83303,-33.293 0.58608,-0.8243 1.32136,-1.3943 2.24404,-1.7395 0.74667,-0.2794 0.88571,-0.281 20.82584,-0.2456 l 20.07415,0.036 0.92976,0.4577 c 1.08482,0.5341 1.83709,1.3814 2.28184,2.5701 l 0.28545,0.7629 -0.0352,31.334 -0.0352,31.3339 -0.45127,0.9166 c -0.54172,1.1004 -1.40116,1.9066 -2.45129,2.2995 -0.73808,0.2762 -0.96367,0.2791 -20.82101,0.272 -19.80541,-0.01 -20.08454,-0.011 -20.7968,-0.2846 z m 25.71423,-4.6777 c 0.43564,-0.1985 0.75131,-0.767 0.75131,-1.3532 0,-0.3087 -0.13355,-0.566 -0.46682,-0.8992 l -0.46682,-0.4669 -4.41412,0 c -4.86773,0 -5.01611,0.023 -5.44005,0.8428 -0.30228,0.5846 -0.15803,1.2461 0.36828,1.689 l 0.41776,0.3515 4.44523,0 c 3.15398,0 4.5498,-0.048 4.80523,-0.164 z m 14.06932,-32.4445 0,-25.1944 -18.94728,0 -18.94728,0 0,25.1944 0,25.1944 18.94728,0 18.94728,0 0,-25.1944 z m -9.89088,-27.9663 c 0.19291,-0.207 0.27994,-0.4864 0.27994,-0.8987 0,-0.7715 -0.41607,-1.2158 -1.25277,-1.3377 -0.89611,-0.1306 -16.35075,-0.022 -16.63552,0.1165 -0.66346,0.3234 -0.84569,1.5478 -0.31008,2.0834 l 0.33701,0.337 8.65073,0 8.65074,0 0.27995,-0.3005 z" fill="#00bcf2" transform="translate(60.653 -677.835)"/>
 </svg>

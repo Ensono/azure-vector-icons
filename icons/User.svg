@@ -1,66 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="67.524002"
-   height="70.00045"
-   id="svg3129"
-   version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="GitHub (Code Source).svg">
-  <defs
-     id="defs3131" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="36.822705"
-     inkscape:cy="2.5545264"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
-  <metadata id="metadata">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:subject>Miscellaneous</dc:subject>
-        <dc:identifier>user</dc:identifier>
-        <dc:title>User</dc:title>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:publisher>Amido Limited</dc:publisher>
-        <dc:creator>Richard Slater</dc:creator>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(40.59139,-444.83305)">
-    <path
-       style="fill:#00bcf2;fill-opacity:1"
-       d="m -40.52519,513.5634 c 0.3002,-5.7164 1.6501,-10.9638 4.036,-15.6883 2.6588,-5.2647 5.9478,-8.9853 9.7604,-11.0412 2.4412,-1.3163 5.2828,-1.4534 8.4328,-0.4069 1.4295,0.4749 2.3116,0.945 4.8747,2.5977 6.9106002,4.456 11.3899002,6.1393 15.0007002,5.6371 1.366,-0.19 2.4239,-0.5607 4.365,-1.5296 1.7313,-0.8642 2.2677,-1.2526 4.3189998,-3.1271 0.754,-0.689 1.6734,-1.4174 2.0431,-1.6186 0.6007,-0.327 0.7679,-0.3569 1.5734,-0.2817 2.2976,0.2145 4.3685,1.9403 6.8983,5.7483 2.2365,3.3668 3.3948,6.0232 4.3791,10.0434 0.5642,2.3045 1.0346,4.9518 1.37,7.7101 0.156,1.2839 0.311,2.5352 0.3443,2.7806 l 0.061,0.4463 -33.7619998,0 -33.7620002,0 0.067,-1.2701 z m 36.0785002,-28.0472 c -6.2328002,-0.9754 -11.7816002,-5.3118 -14.7584002,-11.534 -1.5377,-3.214 -2.1774,-6.1155 -2.1953,-9.9566 -0.035,-7.4694 3.8633,-14.2489 9.9907,-17.3758 2.6216002,-1.3378 5.2608002,-1.9212 8.1497002,-1.8015 2.81580003,0.1168 4.447,0.5347 7.0717,1.8119 1.904,0.9264 2.9109,1.5932 4.4269,2.9317 5.0551998,4.4629 7.9200998,11.6063 7.3371998,18.2946 -0.3467,3.9784 -1.4001,7.0863 -3.437,10.1412 -3.6760998,5.513 -10.2480998,8.4803 -16.5854998,7.4885 z"
-       id="path3773"
-       inkscape:connector-curvature="0" />
-  </g>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" width="67.524" height="70">
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:subject>
+                    Miscellaneous
+                </dc:subject>
+                <dc:identifier>
+                    user
+                </dc:identifier>
+                <dc:title>
+                    User
+                </dc:title>
+                <dc:format>
+                    image/svg+xml
+                </dc:format>
+                <dc:publisher>
+                    Amido Limited
+                </dc:publisher>
+                <dc:creator>
+                    Richard Slater
+                </dc:creator>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <path d="m -40.52519,513.5634 c 0.3002,-5.7164 1.6501,-10.9638 4.036,-15.6883 2.6588,-5.2647 5.9478,-8.9853 9.7604,-11.0412 2.4412,-1.3163 5.2828,-1.4534 8.4328,-0.4069 1.4295,0.4749 2.3116,0.945 4.8747,2.5977 6.9106002,4.456 11.3899002,6.1393 15.0007002,5.6371 1.366,-0.19 2.4239,-0.5607 4.365,-1.5296 1.7313,-0.8642 2.2677,-1.2526 4.3189998,-3.1271 0.754,-0.689 1.6734,-1.4174 2.0431,-1.6186 0.6007,-0.327 0.7679,-0.3569 1.5734,-0.2817 2.2976,0.2145 4.3685,1.9403 6.8983,5.7483 2.2365,3.3668 3.3948,6.0232 4.3791,10.0434 0.5642,2.3045 1.0346,4.9518 1.37,7.7101 0.156,1.2839 0.311,2.5352 0.3443,2.7806 l 0.061,0.4463 -33.7619998,0 -33.7620002,0 0.067,-1.2701 z m 36.0785002,-28.0472 c -6.2328002,-0.9754 -11.7816002,-5.3118 -14.7584002,-11.534 -1.5377,-3.214 -2.1774,-6.1155 -2.1953,-9.9566 -0.035,-7.4694 3.8633,-14.2489 9.9907,-17.3758 2.6216002,-1.3378 5.2608002,-1.9212 8.1497002,-1.8015 2.81580003,0.1168 4.447,0.5347 7.0717,1.8119 1.904,0.9264 2.9109,1.5932 4.4269,2.9317 5.0551998,4.4629 7.9200998,11.6063 7.3371998,18.2946 -0.3467,3.9784 -1.4001,7.0863 -3.437,10.1412 -3.6760998,5.513 -10.2480998,8.4803 -16.5854998,7.4885 z" fill="#00bcf2" transform="translate(40.591 -444.833)"/>
 </svg>

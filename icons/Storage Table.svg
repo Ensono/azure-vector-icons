@@ -1,66 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="69.999626"
-   height="62.41003"
-   id="svg3129"
-   version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="Load Balancer (Generic).svg">
-  <defs
-     id="defs3131" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="16.648467"
-     inkscape:cy="23.482177"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
-  <metadata id="metadata">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:subject>Data</dc:subject>
-        <dc:identifier>storage-table</dc:identifier>
-        <dc:title>Storage Table</dc:title>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:publisher>Amido Limited</dc:publisher>
-        <dc:creator>Richard Slater</dc:creator>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(143.40322,-498.35241)">
-    <path
-       style="fill:#00bcf2;fill-opacity:1"
-       d="m -134.65037,545.26275 c -4.78332,-8.52481 -8.72202,-15.54614 -8.75267,-15.60295 -0.0307,-0.0568 3.88863,-7.1242 8.7095,-15.70533 l 8.76522,-15.60206 17.54836,0 17.548357,0 8.67545,15.44322 c 4.7715,8.49377 8.70997,15.5332 8.75217,15.64318 0.0439,0.11447 -3.65194,6.83851 -8.64427,15.7269 l -8.72102,15.52693 -17.592077,0.0349 -17.59208,0.0349 -8.69694,-15.49966 z m 42.757307,2.16455 0,-1.09972 -15.464767,0 -15.46478,0 0,-15.87717 0,-15.87717 -1.03098,0 -1.03099,0 0,16.97689 0,16.97689 16.49576,0 16.495757,0 0,-1.09972 z m -20.344767,-7.62929 0,-4.05521 -3.98647,0 -3.98648,0 0,4.05521 0,4.05521 3.98648,0 3.98647,0 0,-4.05521 z m 10.17238,0 0,-4.05521 -3.98647,0 -3.98647,0 0,4.05521 0,4.05521 3.98647,0 3.98647,0 0,-4.05521 z m 10.309857,0 0,-4.05521 -4.05521,0 -4.05521,0 0,4.05521 0,4.05521 4.05521,0 4.05521,0 0,-4.05521 z m -20.482237,-10.44732 0,-4.0552 -3.98647,0 -3.98648,0 0,4.0552 0,4.05521 3.98648,0 3.98647,0 0,-4.05521 z m 10.17238,0 0,-4.0552 -3.98647,0 -3.98647,0 0,4.0552 0,4.05521 3.98647,0 3.98647,0 0,-4.05521 z m 10.309857,0 0,-4.0552 -4.05521,0 -4.05521,0 0,4.0552 0,4.05521 4.05521,0 4.05521,0 0,-4.05521 z m -20.482237,-10.51604 0,-4.12394 -3.98647,0 -3.98648,0 0,4.12394 0,4.12394 3.98648,0 3.98647,0 0,-4.12394 z m 10.17238,0 0,-4.12394 -3.98647,0 -3.98647,0 0,4.12394 0,4.12394 3.98647,0 3.98647,0 0,-4.12394 z m 10.309857,0 0,-4.12394 -4.05521,0 -4.05521,0 0,4.12394 0,4.12394 4.05521,0 4.05521,0 0,-4.12394 z"
-       id="path3739"
-       inkscape:connector-curvature="0" />
-  </g>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" width="70" height="62.41">
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:subject>
+                    Data
+                </dc:subject>
+                <dc:identifier>
+                    storage-table
+                </dc:identifier>
+                <dc:title>
+                    Storage Table
+                </dc:title>
+                <dc:format>
+                    image/svg+xml
+                </dc:format>
+                <dc:publisher>
+                    Amido Limited
+                </dc:publisher>
+                <dc:creator>
+                    Richard Slater
+                </dc:creator>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <path d="m -134.65037,545.26275 c -4.78332,-8.52481 -8.72202,-15.54614 -8.75267,-15.60295 -0.0307,-0.0568 3.88863,-7.1242 8.7095,-15.70533 l 8.76522,-15.60206 17.54836,0 17.548357,0 8.67545,15.44322 c 4.7715,8.49377 8.70997,15.5332 8.75217,15.64318 0.0439,0.11447 -3.65194,6.83851 -8.64427,15.7269 l -8.72102,15.52693 -17.592077,0.0349 -17.59208,0.0349 -8.69694,-15.49966 z m 42.757307,2.16455 0,-1.09972 -15.464767,0 -15.46478,0 0,-15.87717 0,-15.87717 -1.03098,0 -1.03099,0 0,16.97689 0,16.97689 16.49576,0 16.495757,0 0,-1.09972 z m -20.344767,-7.62929 0,-4.05521 -3.98647,0 -3.98648,0 0,4.05521 0,4.05521 3.98648,0 3.98647,0 0,-4.05521 z m 10.17238,0 0,-4.05521 -3.98647,0 -3.98647,0 0,4.05521 0,4.05521 3.98647,0 3.98647,0 0,-4.05521 z m 10.309857,0 0,-4.05521 -4.05521,0 -4.05521,0 0,4.05521 0,4.05521 4.05521,0 4.05521,0 0,-4.05521 z m -20.482237,-10.44732 0,-4.0552 -3.98647,0 -3.98648,0 0,4.0552 0,4.05521 3.98648,0 3.98647,0 0,-4.05521 z m 10.17238,0 0,-4.0552 -3.98647,0 -3.98647,0 0,4.0552 0,4.05521 3.98647,0 3.98647,0 0,-4.05521 z m 10.309857,0 0,-4.0552 -4.05521,0 -4.05521,0 0,4.0552 0,4.05521 4.05521,0 4.05521,0 0,-4.05521 z m -20.482237,-10.51604 0,-4.12394 -3.98647,0 -3.98648,0 0,4.12394 0,4.12394 3.98648,0 3.98647,0 0,-4.12394 z m 10.17238,0 0,-4.12394 -3.98647,0 -3.98647,0 0,4.12394 0,4.12394 3.98647,0 3.98647,0 0,-4.12394 z m 10.309857,0 0,-4.12394 -4.05521,0 -4.05521,0 0,4.12394 0,4.12394 4.05521,0 4.05521,0 0,-4.12394 z" fill="#00bcf2" transform="translate(143.403 -498.352)"/>
 </svg>

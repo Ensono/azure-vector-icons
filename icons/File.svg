@@ -1,66 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="67.485336"
-   height="70.000168"
-   id="svg3129"
-   version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="WAD (Diagnostics) Config.svg">
-  <defs
-     id="defs3131" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="38.842095"
-     inkscape:cy="37.080842"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
-  <metadata id="metadata">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:subject>Code</dc:subject>
-        <dc:identifier>file</dc:identifier>
-        <dc:title>File</dc:title>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:publisher>Amido Limited</dc:publisher>
-        <dc:creator>Richard Slater</dc:creator>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(175.27067,-499.44285)">
-    <path
-       style="fill:#00bcf2;fill-opacity:1"
-       d="m -168.30873,569.1717 c -3.17264,-0.83123 -5.72847,-3.33808 -6.6453,-6.51797 l -0.31664,-1.0982 0,-27.04305 c 0,-22.20209 0.0331,-27.17821 0.18483,-27.79807 0.10166,-0.41525 0.46444,-1.34185 0.80619,-2.05911 0.53117,-1.11483 0.79324,-1.47372 1.80565,-2.47272 1.3546,-1.33668 2.55993,-2.0244 4.32924,-2.47015 1.06307,-0.26783 1.55942,-0.27346 23.67983,-0.26872 l 22.594,0.005 7.0428,6.96184 7.0428,6.96184 -0.0418,24.22893 -0.0418,24.22893 -0.3245,0.96092 c -1.11816,3.31113 -3.4879,5.56775 -6.71307,6.39261 -1.0071,0.25758 -1.7749,0.26498 -26.71957,0.25764 -24.81831,-0.007 -25.71633,-0.0164 -26.68265,-0.26955 z m 52.73328,-5.8148 c 0.83296,-0.409 1.49706,-1.15416 1.82758,-2.05065 0.12071,-0.32739 0.16377,-5.97503 0.1716,-22.50241 l 0.0104,-22.06532 -5.59393,-0.0359 -5.59394,-0.0359 -0.0358,-5.73121 -0.0358,-5.73121 -20.96715,0.001 -20.96716,10e-4 -0.68637,0.3203 c -0.3775,0.17617 -0.91454,0.57341 -1.1934,0.88277 -1.00274,1.11235 -0.93435,-0.93979 -0.93435,28.03679 0,28.12625 -0.0363,26.70391 0.71059,27.80828 0.41847,0.61872 1.20418,1.15671 2.00639,1.3738 0.51402,0.1391 5.74384,0.16956 25.56154,0.14889 l 24.9153,-0.026 0.80451,-0.39503 z m -41.91819,-16.55836 0,-3.02121 15.61497,0.0349 15.61496,0.0349 0,2.9514 0,2.9514 -15.61496,0.0349 -15.61497,0.0349 0,-3.0212 z m 0,-11.05118 0,-2.95198 15.61497,0.0349 15.61496,0.0349 0.037,2.91709 0.037,2.91708 -15.65202,0 -15.65201,0 0,-2.95199 z m 0,-11.05 0,-3.02121 15.61497,0.0349 15.61496,0.0349 0,2.9514 0,2.9514 -15.61496,0.0349 -15.61497,0.0349 0,-3.0212 z"
-       id="path3721"
-       inkscape:connector-curvature="0" />
-  </g>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" width="67.485" height="70">
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:subject>
+                    Code
+                </dc:subject>
+                <dc:identifier>
+                    file
+                </dc:identifier>
+                <dc:title>
+                    File
+                </dc:title>
+                <dc:format>
+                    image/svg+xml
+                </dc:format>
+                <dc:publisher>
+                    Amido Limited
+                </dc:publisher>
+                <dc:creator>
+                    Richard Slater
+                </dc:creator>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <path d="m -168.30873,569.1717 c -3.17264,-0.83123 -5.72847,-3.33808 -6.6453,-6.51797 l -0.31664,-1.0982 0,-27.04305 c 0,-22.20209 0.0331,-27.17821 0.18483,-27.79807 0.10166,-0.41525 0.46444,-1.34185 0.80619,-2.05911 0.53117,-1.11483 0.79324,-1.47372 1.80565,-2.47272 1.3546,-1.33668 2.55993,-2.0244 4.32924,-2.47015 1.06307,-0.26783 1.55942,-0.27346 23.67983,-0.26872 l 22.594,0.005 7.0428,6.96184 7.0428,6.96184 -0.0418,24.22893 -0.0418,24.22893 -0.3245,0.96092 c -1.11816,3.31113 -3.4879,5.56775 -6.71307,6.39261 -1.0071,0.25758 -1.7749,0.26498 -26.71957,0.25764 -24.81831,-0.007 -25.71633,-0.0164 -26.68265,-0.26955 z m 52.73328,-5.8148 c 0.83296,-0.409 1.49706,-1.15416 1.82758,-2.05065 0.12071,-0.32739 0.16377,-5.97503 0.1716,-22.50241 l 0.0104,-22.06532 -5.59393,-0.0359 -5.59394,-0.0359 -0.0358,-5.73121 -0.0358,-5.73121 -20.96715,0.001 -20.96716,10e-4 -0.68637,0.3203 c -0.3775,0.17617 -0.91454,0.57341 -1.1934,0.88277 -1.00274,1.11235 -0.93435,-0.93979 -0.93435,28.03679 0,28.12625 -0.0363,26.70391 0.71059,27.80828 0.41847,0.61872 1.20418,1.15671 2.00639,1.3738 0.51402,0.1391 5.74384,0.16956 25.56154,0.14889 l 24.9153,-0.026 0.80451,-0.39503 z m -41.91819,-16.55836 0,-3.02121 15.61497,0.0349 15.61496,0.0349 0,2.9514 0,2.9514 -15.61496,0.0349 -15.61497,0.0349 0,-3.0212 z m 0,-11.05118 0,-2.95198 15.61497,0.0349 15.61496,0.0349 0.037,2.91709 0.037,2.91708 -15.65202,0 -15.65201,0 0,-2.95199 z m 0,-11.05 0,-3.02121 15.61497,0.0349 15.61496,0.0349 0,2.9514 0,2.9514 -15.61496,0.0349 -15.61497,0.0349 0,-3.0212 z" fill="#00bcf2" transform="translate(175.271 -499.443)"/>
 </svg>
