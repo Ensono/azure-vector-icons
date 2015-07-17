@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="19.158mm" width="19.756mm" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 70.000009 67.883998">
+    <metadata>
+        <rdf:RDF>
+            <cc:Work>
+                <dc:subject>
+                    Compute
+                </dc:subject>
+                <dc:identifier>
+                    batch-services
+                </dc:identifier>
+                <dc:title>
+                    Batch Services
+                </dc:title>
+                <dc:format>
+                    image/svg+xml
+                </dc:format>
+                <dc:publisher>
+                    Amido Limited
+                </dc:publisher>
+                <dc:creator>
+                    Richard Slater
+                </dc:creator>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+ <g id="layer1" transform="translate(-147.13 -413.16)">
+  <path id="rect4157" d="m151.6 413.16c-2.4757 0-4.4662 1.9933-4.4662 4.469v30.552c0 2.4757 1.9905 4.469 4.4662 4.469h30.645c2.4757 0 4.469-1.9933 4.469-4.469v-30.552c0-2.4757-1.9933-4.469-4.469-4.469h-30.645zm0.36676 10.213h30.005v24.898h-30.005v-24.898zm36.765 1.6618v6.19c8.6064-0.1467 10.721 1.7568 10.445 9.5446l-4.3787 0.0198 8.5007 9.7166 8.0634-9.8436-4.8329-0.0198c-0.22153-10.476-0.24993-15.536-17.797-15.608zm-34.575 0.98464v4.833h24.989v-4.833h-24.989zm0 7.1352v4.8329h24.989v-4.8329h-24.989zm0 7.138v4.8329h24.989v-4.8329h-24.989zm36.861 12.767c-1.3234 0-2.3897 1.0663-2.3897 2.3897v16.33c0 1.3234 1.0663 2.3896 2.3897 2.3896h16.381c1.3234 0 2.3897-1.0662 2.3897-2.3896v-16.33c0-1.3234-1.0663-2.3897-2.3897-2.3897h-16.381zm19.848 3.3912v18.528h-18.525v2.5843h18.525 2.5843v-2.5843-18.528h-2.5843zm-19.653 2.068h16.039v13.311h-16.039v-13.311zm23.338 1.4135v18.528h-18.525v2.5843h18.525 2.5844v-2.5843-18.528h-2.5844zm-21.987 0.64043v2.5815h13.359v-2.5815h-13.359z" fill="#00bcf2"/>
+ </g>
+</svg>
