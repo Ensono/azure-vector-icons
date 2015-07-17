@@ -45,11 +45,13 @@ Compute
 | ![API Management](renders/api-management.png) | API Management |
 | ![Automation](renders/automation.png) | Automation |
 | ![Autoscale](renders/autoscale.png) | Autoscale |
+| ![Batch Services](renders/batch-services.png) | Batch Services |
 | ![Cloud Service](renders/cloud-service.png) | Cloud Service |
 | ![Media Services](renders/media-service.png) | Media Services |
 | ![Mobile Services](renders/mobile-services.png) | Mobile Services |
 | ![RemoteApp](renders/remoteapp.png) | RemoteApp |
 | ![Scheduler](renders/scheduler.png) | Scheduler |
+| ![Service Fabric Cluster](renders/service-fabric-cluster.png) | Service Fabric Cluster |
 | ![Virtual Machine - ElasticSearch](renders/virtual-machine-elasticsearch.png) | Virtual Machine - ElasticSearch |
 | ![Virtual Machine](renders/virtual-machine.png) | Virtual Machine |
 | ![Virtual Machines](renders/virtual-machines.png) | Virtual Machines |
