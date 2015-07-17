@@ -38,13 +38,7 @@ Task DeleteRenders -Depends CreateRendersFolder {
 }
 
 Task Render -Depends "Inspect Metadata" {
-  if (Test-Path $env:ProgramFiles\Inkscape) {
-    $inkscape = Join-Path $env:ProgramFiles "Inkscape\inkscape.com";
-  }
-
-  if (Test-Path ${env:ProgramFiles(x86)}\Inkscape) {
-    $inkscape = Join-Path ${env:ProgramFiles(x86)} "Inkscape\inkscape.com";
-  }
+  $inkscape = Join-Path $env:ProgramFiles "Inkscape\inkscape.com";
 
   if (!$inkscape) {
     throw "Inkscape could not be found in 'Program Files', aborting.";
