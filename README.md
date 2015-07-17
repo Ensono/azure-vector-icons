@@ -6,6 +6,13 @@ A set of vector (SVG) icons depicting Microsoft Azure Platform Services. Designe
 The Icons
 =========
 
+Analytics
+---------
+
+| Icon | Title |
+|:---- |:----- |
+| ![Operational Insights](renders/operational-insights.png) | Operational Insights |
+
 Big Data
 --------
 
@@ -35,6 +42,7 @@ Code
 | ![RDP (Remoting File)](renders/rdp-remoting-file.png) | RDP (Remoting File) |
 | ![Script File](renders/script-file.png) | Script File |
 | ![Startup File](renders/startup-file.png) | Startup File |
+| ![WAD (Diagnostics) Config](renders/wad-diagonostics-config.png) | WAD (Diagnostics) Config |
 | ![WAD (Diagnostics) Config](renders/wad-diagonostics-config.png) | WAD (Diagnostics) Config |
 
 Compute
@@ -76,6 +84,7 @@ Data
 | ![SQL DataSync](renders/sql-datasync.png) | SQL DataSync |
 | ![Storage Blob](renders/storage-blob.png) | Storage Blob |
 | ![Storage Table](renders/storage-table.png) | Storage Table |
+| ![Stream Analytics](renders/stream-analytics.png) | Stream Analytics |
 | ![VHD Data Disk](renders/vhd-data-disk.png) | VHD Data Disk |
 | ![VHD](renders/vhd.png) | VHD |
 
