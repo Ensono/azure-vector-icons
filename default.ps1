@@ -3,6 +3,8 @@ Task full -Depends "Inspect Metadata", OptimizeVectors, DeleteRenders, Render, O
 
 Task CreateRendersFolder -PreCondition { -Not (Test-Path "$PSScriptRoot\renders") } {
   New-Item -ItemType Container "$PSScriptRoot\renders";
+  New-Item -ItemType Container "$PSScriptRoot\renders\mono";
+  New-Item -ItemType Container "$PSScriptRoot\renders\colour";
 }
 
 Task "Inspect Metadata" {
@@ -29,12 +31,12 @@ Task "Inspect Metadata" {
   }
 
   if ($hasFailed) {
-    throw "One or more files faile metadata validation, please review the logs and correct validation as required.";
+    throw "One or more files failed metadata validation, please review the logs and correct validation as required.";
   }
 }
 
-Task DeleteRenders -Depends CreateRendersFolder { 
-  Get-ChildItem -Path "$PSScriptRoot\renders" -Filter "*.png" | Remove-Item;
+Task DeleteRenders -Depends CreateRendersFolder {
+  Get-ChildItem -Recurse -Path "$PSScriptRoot\renders" -Filter "*.png" | Remove-Item;
 }
 
 Task Render -Depends "Inspect Metadata" {
@@ -57,9 +59,9 @@ Task Render -Depends "Inspect Metadata" {
     $inputParameter = "--file=$inputDocument";
     $outputParameter = "--export-png=$outputDocument";
     $additionalParameters = @("--export-area-page", "--export-background-opacity=0.0");
-  
+
     Write-Host -ForegroundColor Magenta "  Rendering $($icon.Title)";
-    & $inkscape $inputParameter $outputParameter $additionalParameters | Write-Verbose; 
+    & $inkscape $inputParameter $outputParameter $additionalParameters | Write-Verbose;
   }
 }
 
@@ -109,7 +111,7 @@ Task OptimizeRenders {
         Remove-Item $outputName;
       }
     }
-  } 
+  }
 }
 
 Task InstallSVGO -PreCondition { (Get-Command npm -ErrorAction Ignore) -And -Not (Test-Path .\tools\node_modules\svgo) } {
