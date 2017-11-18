@@ -158,7 +158,7 @@ Task UpdateReadme -Depends "Inspect Metadata" {
 }
 
 function Get-Icons {
-  Get-ChildItem "$PSScriptRoot\icons" `
+  Get-ChildItem -Recurse "$PSScriptRoot\icons" `
     | Select-Object FullName, BaseName, Name, Length, @{ Name="Content"; Expression={[xml](Get-Content $_.FullName);} } `
     | Select-Object FullName, BaseName, Name, Length, Content, @{ Name="Metadata"; Expression={ $_.Content.svg.metadata.rdf.Work } } `
     | Select-Object FullName, BaseName, Name, Length, `
