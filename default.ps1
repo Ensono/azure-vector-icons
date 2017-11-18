@@ -148,10 +148,10 @@ Task UpdateReadme -Depends "Inspect Metadata" {
     Add-Content $readmeFile $category.Name.Trim();
     Add-Content $readmeFile (New-Object System.String -ArgumentList "-", $category.Name.Length);
     Add-Content $readmeFile "";
-    Add-Content $readmeFile "| Icon | Title |";
-    Add-Content $readmeFile "|:---- |:----- |";
+    Add-Content $readmeFile "| Monochrome Icon | Colour Icon | Title |";
+    Add-Content $readmeFile "|:--------------- |:----------- |:----- |";
     foreach ($icon in $category.Group) {
-      Add-Content $readmeFile "| ![$($icon.Title)](renders/$($icon.Identifier).png) | $($icon.Title) |";
+      Add-Content $readmeFile "| ![$($icon.Title)](renders/mono/$($icon.Identifier).png) | ![$($icon.Title)](renders/colour/$($icon.Identifier).png) | $($icon.Title) |";
     }
     Add-Content $readmeFile "";
   }
