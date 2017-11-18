@@ -8,7 +8,7 @@ Task CreateRendersFolder -PreCondition { -Not (Test-Path "$PSScriptRoot\renders"
 }
 
 Task "Inspect Metadata" {
-  $icons = Get-ChildItem "$PSScriptRoot\icons";
+  $icons = Get-ChildItem -Recurse "$PSScriptRoot\icons";
   $iconXml = $icons | Select-Object BaseName, Name, @{ Name="SVGDocument"; Expression={[xml](Get-Content $_.FullName);} };
   [bool]$hasFailed = $false;
 
