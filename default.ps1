@@ -76,7 +76,7 @@ Task OptimizeRenders {
   $pngoutParams = @("/y", "/d0", "/s0", "/mincodes0", "/q");
   $defloptParams = @("/s");
 
-  $allRenders = Get-ChildItem -Path "$PSScriptRoot\renders" -Filter "*.png";
+  $allRenders = Get-ChildItem -Path "$PSScriptRoot\renders" -Recurse -Filter "*.png";
   foreach ($render in $allRenders | Where-Object { -Not $_.FullName.EndsWith("-fs8.png") }) {
     Write-Host -ForegroundColor Magenta "  Optimizing $($render.BaseName)";
     $outputName = "$PSScriptRoot\renders\$($render.BaseName)-fs8.png";
